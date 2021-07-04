@@ -1,22 +1,23 @@
 body{
     margin: 0;
-    padding: 0;
     font-family: 'Raleway', sans-serif;
 }
 section{
-    height: 400px;
-    padding: 100px;
+    height: 500px;
+    padding: 150px;
 }
 .container{
 background-image: url("images/top-banner.png");
 background-repeat: no-repeat;
 }
+
 .half-section{
 width: 40%;
 float: left;
 margin-left: 5%;
 padding-left: 2%;
 }
+
 h1{
 font-size: 50px;
 }
@@ -50,11 +51,16 @@ color: dodgerblue;
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience h2{
+    margin-left: 20px;
+}
+
 .experience{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
+
 .experience div{
     box-shadow: 10px 15px 40px gray;
     height: 80%;
