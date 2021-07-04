@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+section{
+    height: 400px;
+    padding: 100px;
+}
+.container{
+background-image: url("images/top-banner.png");
+background-repeat: no-repeat;
+}
+.half-section{
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 2%;
+}
+h1{
+font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    color: dodgerblue;
+}
+.half-section h1 span{
+color: dodgerblue;
+}
+.half-section img{
+    width: 100%;
+}
+.anchor{
+    text-decoration: none;
+    background-image: linear-gradient(crimson, rgb(110, 110, 240));
+    color: floralwhite;
+    font-size: 2rem;
+    padding: 5px;
+    border: 1px none;
+    border-radius: 8px;
+}
+.anchor:hover{
+    background-image: linear-gradient(white, cyan);
+    color: darkred;
+}
+.passion-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience div{
+    box-shadow: 10px 15px 40px gray;
+    height: 80%;
+}
+
+#trainer{
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, crimson);
+    border-image-slice: 1;
+}
+#jr-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
+}
+footer p{
+    font-size: 24px;
+    font-weight: 700;
+}
