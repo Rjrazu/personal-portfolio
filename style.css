@@ -4,7 +4,7 @@ body{
 }
 section{
     height: 500px;
-    padding: 150px;
+    margin-bottom: 150px;
 }
 .container{
 background-image: url("images/top-banner.png");
